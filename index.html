@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roman Zuzuk - Artist Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- ========== NAVIGATION ========== -->
+  <header>
+    <div class="nav-container">
+      <a href="#" class="logo">Roman Zuzuk</a>
+      <nav>
+        <ul>
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Roman Zuzuk</h1>
+      <p>Contemporary Artist | Oil &amp; Encaustic Painter</p>
+      <p>Master of Primitive Abstraction with a Rich, Bold Palette</p>
+      <div class="cta-buttons">
+        <button class="btn btn-primary" onclick="document.getElementById('gallery').scrollIntoView({behavior: 'smooth'})">
+          View Gallery
+        </button>
+        <button class="btn btn-secondary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+          Get in Touch
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALLERY SECTION ========== -->
+  <section id="gallery" class="gallery-section">
+    <div class="section-header">
+      <h2>Featured Artworks</h2>
+      <p>Explore a curated selection of recent paintings and encaustic works</p>
+    </div>
+
+        <div class="gallery-grid">
+      <!-- Gallery Item 1 -->
+      <div class="gallery-item" data-index="0">
+        <div class="gallery-image">
+          <img src="assets/images/gallery/Holiday_Dreamers_22x24_2006_OC2.webp"
+               alt="Holiday Dreamers, oil on canvas painting by Roman Zuzuk">
+        </div>
+        <div class="gallery-content">
+          <h3>Holiday Dreamers</h3>
+          <div class="gallery-meta">
+            <span>Oil on Canvas</span>
+            <span>22x24"</span>
+          </div>
+          <p>Available for collectors</p>
+        </div>
+      </div>
+
+      <!-- Gallery Item 2 -->
+      <div class="gallery-item" data-index="1">
+        <div class="gallery-image">
+          <img src="assets/images/gallery/Lucky_Man_22x18_1600_OC2.webp"
+               alt="Lucky Man, oil on canvas painting by Roman Zuzuk">
+        </div>
+        <div class="gallery-content">
+          <h3>Lucky Man</h3>
+          <div class="gallery-meta">
+            <span>Oil on Canvas</span>
+            <span>22x18"</span>
+          </div>
+          <p>Available for collectors</p>
+        </div>
+      </div>
+
+      <!-- Gallery Item 3 -->
+      <div class="gallery-item" data-index="2">
+        <div class="gallery-image">
+          <img src="assets/images/gallery/Dance14x14_550cad.webp"
+               alt="Dance, encaustic on canvas painting by Roman Zuzuk">
+        </div>
+        <div class="gallery-content">
+          <h3>Dance</h3>
+          <div class="gallery-meta">
+            <span>Encaustic on Canvas</span>
+            <span>14x14"</span>
+          </div>
+          <p>Available for collectors</p>
+        </div>
+      </div>
+
+      <!-- Gallery Item 4 -->
+      <div class="gallery-item" data-index="3">
+        <div class="gallery-image">
+          <img src="assets/images/gallery/Prosperity18x20_1200cad.webp"
+               alt="Prosperity, oil on canvas painting by Roman Zuzuk">
+        </div>
+        <div class="gallery-content">
+          <h3>Prosperity</h3>
+          <div class="gallery-meta">
+            <span>Oil on Canvas</span>
+            <span>18x20"</span>
+          </div>
+          <p>Available for collectors</p>
+        </div>
+      </div>
+
+      <!-- Gallery Item 5 – Best Friend 36x42 -->
+      <div class="gallery-item" data-index="4">
+        <div class="gallery-image">
+          <img src="assets/images/gallery/Best_Friend_36x42_OBur_3500_IMG_9875.webp"
+               alt="Best Friend, oil on burlap painting by Roman Zuzuk">
+        </div>
+        <div class="gallery-content">
+          <h3>Best Friend</h3>
+          <div class="gallery-meta">
+            <span>Oil on Burlap</span>
+            <span>36x42"</span>
+          </div>
+          <p>Available for collectors</p>
+        </div>
+      </div>
+
+      <!-- Gallery Item 6 – Big Love 16x20 -->
+      <div class="gallery-item" data-index="5">
+        <div class="gallery-image">
+          <img src="assets/images/gallery/Big_love_16x20_EN_900IMG_9892.webp"
+               alt="Big Love, oil on canvas painting by Roman Zuzuk">
+        </div>
+        <div class="gallery-content">
+          <h3>Big Love</h3>
+          <div class="gallery-meta">
+            <span>Oil on Canvas</span>
+            <span>16x20"</span>
+          </div>
+          <p>Available for collectors</p>
+        </div>
+      </div>
+
+      <!-- Gallery Item 7 – Cafe Prague 20x16 -->
+      <div class="gallery-item" data-index="6">
+        <div class="gallery-image">
+          <img src="assets/images/gallery/Cafe_Prague_20x16_canOIL_900_IMG_9868.webp"
+               alt="Cafe Prague, oil on canvas painting by Roman Zuzuk">
+        </div>
+        <div class="gallery-content">
+          <h3>Cafe Prague</h3>
+          <div class="gallery-meta">
+            <span>Oil on Canvas</span>
+            <span>20x16"</span>
+          </div>
+          <p>Available for collectors</p>
+        </div>
+      </div>
+
+      <!-- Gallery Item 8 – Celebration 10x14 -->
+      <div class="gallery-item" data-index="7">
+        <div class="gallery-image">
+          <img src="assets/images/gallery/Celebration10x14_300cad.webp"
+               alt="Celebration, oil on canvas painting by Roman Zuzuk">
+        </div>
+        <div class="gallery-content">
+          <h3>Celebration</h3>
+          <div class="gallery-meta">
+            <span>Oil on Canvas</span>
+            <span>10x14"</span>
+          </div>
+          <p>Available for collectors</p>
+        </div>
+      </div>
+
+      <!-- Gallery Item 9 – Country 30x40 -->
+      <div class="gallery-item" data-index="8">
+        <div class="gallery-image">
+          <img src="assets/images/gallery/County_living_26x33_2400IMG_9777.webp"
+               alt="Country, oil on canvas painting by Roman Zuzuk">
+        </div>
+        <div class="gallery-content">
+          <h3>Country</h3>
+          <div class="gallery-meta">
+            <span>Oil on Canvas</span>
+            <span>30x40"</span>
+          </div>
+          <p>Available for collectors</p>
+        </div>
+      </div>
+
+      <!-- Gallery Item 11 – Dream 44x48 -->
+      <div class="gallery-item" data-index="10">
+        <div class="gallery-image">
+          <img src="assets/images/gallery/Dream_44x48_4800_OB.webp"
+               alt="Dream, oil on burlap painting by Roman Zuzuk">
+        </div>
+        <div class="gallery-content">
+          <h3>Dream</h3>
+          <div class="gallery-meta">
+            <span>Oil on Burlap</span>
+            <span>44x48"</span>
+          </div>
+          <p>Available for collectors</p>
+        </div>
+      </div>
+
+      <!-- Gallery Item 12 – Farsighted 20x16 -->
+      <div class="gallery-item" data-index="11">
+        <div class="gallery-image">
+          <img src="assets/images/gallery/Farsighted_20x16_900_EC.webp"
+               alt="Farsighted, encaustic on canvas painting by Roman Zuzuk">
+        </div>
+        <div class="gallery-content">
+          <h3>Farsighted</h3>
+          <div class="gallery-meta">
+            <span>Encaustic on Canvas</span>
+            <span>20x16"</span>
+          </div>
+          <p>Available for collectors</p>
+        </div>
+      </div>
+
+      <!-- Gallery Item 13 – Gardening 18x15 -->
+      <div class="gallery-item" data-index="12">
+        <div class="gallery-image">
+          <img src="assets/images/gallery/Gardening_18x15_Obur_800_IMG_9887.webp"
+               alt="Gardening, oil on burlap painting by Roman Zuzuk">
+        </div>
+        <div class="gallery-content">
+          <h3>Gardening</h3>
+          <div class="gallery-meta">
+            <span>Oil on Burlap</span>
+            <span>18x15"</span>
+          </div>
+          <p>Available for collectors</p>
+        </div>
+      </div>
+
+      <!-- Gallery Item 14 – Long Hair 15x14 -->
+      <div class="gallery-item" data-index="13">
+        <div class="gallery-image">
+          <img src="assets/images/gallery/Long_hair15x14_550cad.webp"
+               alt="Long Hair, oil on canvas painting by Roman Zuzuk">
+        </div>
+        <div class="gallery-content">
+          <h3>Long Hair</h3>
+          <div class="gallery-meta">
+            <span>Oil on Canvas</span>
+            <span>15x14"</span>
+          </div>
+          <p>Available for collectors</p>
+        </div>
+      </div>
+
+      <!-- Gallery Item 15 – Love 21x28 -->
+      <div class="gallery-item" data-index="14">
+        <div class="gallery-image">
+          <img src="assets/images/gallery/Love21x28_2000cad.webp"
+               alt="Love, oil on canvas painting by Roman Zuzuk">
+        </div>
+        <div class="gallery-content">
+          <h3>Love</h3>
+          <div class="gallery-meta">
+            <span>Oil on Canvas</span>
+            <span>21x28"</span>
+          </div>
+          <p>Available for collectors</p>
+        </div>
+      </div>
+
+      <!-- Gallery Item 16 – Melody 24x20 -->
+      <div class="gallery-item" data-index="15">
+        <div class="gallery-image">
+          <img src="assets/images/gallery/Melody_24x20_1500IMG_9760.webp"
+               alt="Melody, oil on canvas painting by Roman Zuzuk">
+        </div>
+        <div class="gallery-content">
+          <h3>Melody</h3>
+          <div class="gallery-meta">
+            <span>Oil on Canvas</span>
+            <span>24x20"</span>
+          </div>
+          <p>Available for collectors</p>
+        </div>
+      </div>
+
+      <!-- Gallery Item 17 – Muse 14x11 -->
+      <div class="gallery-item" data-index="16">
+        <div class="gallery-image">
+          <img src="assets/images/gallery/muse_14x11_400_EC.webp"
+               alt="Muse, encaustic on canvas painting by Roman Zuzuk">
+        </div>
+        <div class="gallery-content">
+          <h3>Muse</h3>
+          <div class="gallery-meta">
+            <span>Encaustic on Canvas</span>
+            <span>14x11"</span>
+          </div>
+          <p>Available for collectors</p>
+        </div>
+      </div>
+
+      <!-- Gallery Item 18 – Music 30x20 -->
+      <div class="gallery-item" data-index="17">
+        <div class="gallery-image">
+          <img src="assets/images/gallery/Music_30x20_2800IMG_9770.webp"
+               alt="Music, oil on canvas painting by Roman Zuzuk">
+        </div>
+        <div class="gallery-content">
+          <h3>Music</h3>
+          <div class="gallery-meta">
+            <span>Oil on Canvas</span>
+            <span>30x20"</span>
+          </div>
+          <p>Available for collectors</p>
+        </div>
+      </div>
+
+      <!-- Gallery Item 19 – Paradise 48x36 -->
+      <div class="gallery-item" data-index="18">
+        <div class="gallery-image">
+          <img src="assets/images/gallery/Paradise48x36_3200cad.webp"
+               alt="Paradise, oil on canvas painting by Roman Zuzuk">
+        </div>
+        <div class="gallery-content">
+          <h3>Paradise</h3>
+          <div class="gallery-meta">
+            <span>Oil on Canvas</span>
+            <span>48x36"</span>
+          </div>
+          <p>Available for collectors</p>
+        </div>
+      </div>
+
+      <!-- Gallery Item 20 – Savoir 24x35 -->
+      <div class="gallery-item" data-index="19">
+        <div class="gallery-image">
+          <img src="assets/images/gallery/savoir24x35_3000.webp"
+               alt="Savoir, oil on canvas painting by Roman Zuzuk">
+        </div>
+        <div class="gallery-content">
+          <h3>Savoir</h3>
+          <div class="gallery-meta">
+            <span>Oil on Canvas</span>
+            <span>24x35"</span>
+          </div>
+          <p>Available for collectors</p>
+        </div>
+      </div>
+
+      <!-- Gallery Item 21 – Urban Music 40x48 -->
+      <div class="gallery-item" data-index="20">
+        <div class="gallery-image">
+          <img src="assets/images/gallery/Urban_Music_40x48_4400cad.webp"
+               alt="Urban Music, oil on canvas painting by Roman Zuzuk">
+        </div>
+        <div class="gallery-content">
+          <h3>Urban Music</h3>
+          <div class="gallery-meta">
+            <span>Oil on Canvas</span>
+            <span>40x48"</span>
+          </div>
+          <p>Available for collectors</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+ <!-- ========== ABOUT SECTION ========== -->
+<section id="about" class="about-section">
+  <div class="about-container">
+    <div class="section-header">
+      <h2>About the Artist</h2>
+      <div class="header-line"></div>
+    </div>
+    
+    <div class="about-content">
+      <div class="about-image">
+        <div class="image-frame">
+          <img src="assets/images/artist photo/artist-photo.webp" alt="Roman Zuzuk in his studio">
+          <div class="frame-corner tl"></div>
+          <div class="frame-corner tr"></div>
+          <div class="frame-corner bl"></div>
+          <div class="frame-corner br"></div>
+        </div>
+      </div>
+      
+      <div class="about-text">
+        <div class="artist-intro">
+          <h3>Roman Zuzuk</h3>
+          <p class="artist-title">Contemporary Artist • Oil & Encaustic Painter</p>
+        </div>
+        
+        <div class="bio-content">
+          <p class="lead-paragraph">
+            Roman Zuzuk is a master of primitive abstraction whose bold, vibrant palette and expressive figures capture the raw essence of human emotion and experience.
+          </p>
+          
+          <p>
+            Working primarily in oil on canvas and burlap, as well as the ancient medium of encaustic, Zuzuk creates works that bridge the gap between folk art traditions and contemporary expression. His distinctive style features simplified forms, rich textural surfaces, and a fearless use of color that brings joy and vitality to each composition.
+          </p>
+          
+          <p>
+            Each painting tells a story—from celebrations of music and dance to intimate moments of connection and contemplation. His work evokes the spirit of masters like Paul Klee and Joan Miró, while maintaining a unique voice that is unmistakably his own.
+          </p>
+          
+         
+        </div>
+        
+        <div class="technique-tags">
+          <span class="tag">Oil Painting</span>
+          <span class="tag">Encaustic</span>
+          <span class="tag">Bold Color</span>
+          <span class="tag">Expressive Figures</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CONTACT SECTION ========== -->
+<section id="contact" class="contact-section">
+  <div class="contact-container">
+    <div class="section-header">
+      <h2>Get in Touch</h2>
+      <div class="header-line"></div>
+      <p>Interested in acquiring an artwork or discussing a commission? I'd love to hear from you.</p>
+    </div>
+    
+    <div class="contact-content">
+      <!-- Contact Form -->
+      <div class="contact-form-wrapper">
+        <form id="contactForm" class="contact-form">
+          <div class="form-group">
+            <label for="name">Your Name *</label>
+            <input type="text" id="name" name="name" required>
+            <span class="form-underline"></span>
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required>
+            <span class="form-underline"></span>
+          </div>
+          
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+            <span class="form-underline"></span>
+          </div>
+          
+          <div class="form-group">
+            <label for="interest">I'm Interested In *</label>
+            <select id="interest" name="interest" required>
+              <option value="">Select an option</option>
+              <option value="purchase">Purchasing Available Work</option>
+              <option value="commission">Commissioning a Piece</option>
+              <option value="exhibition">Exhibition Opportunities</option>
+              <option value="collaboration">Collaboration</option>
+              <option value="general">General Inquiry</option>
+            </select>
+            <span class="form-underline"></span>
+          </div>
+          
+          <div class="form-group">
+            <label for="message">Your Message *</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <span class="form-underline"></span>
+          </div>
+          
+          <button type="submit" class="btn btn-primary btn-submit">
+            <span class="btn-text">Send Message</span>
+            <span class="btn-icon">→</span>
+          </button>
+          
+          <div class="form-status" id="formStatus"></div>
+        </form>
+      </div>
+      
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <div class="info-card">
+          <div class="info-icon">✉</div>
+          <h3>Email</h3>
+          <a href="mailto:artwork@romanzuzuk.com">info@romanzuzuk.com</a>
+        </div>
+        
+        <div class="info-card">
+          <div class="info-icon">📍</div>
+          <h3>Location</h3>
+          <p>Toronto, Ontario<br>Canada</p>
+        </div>
+        
+        <div class="info-card">
+          <div class="info-icon">🎨</div>
+          <h3>Studio Visits</h3>
+          <p>By appointment only<br>Please inquire via email</p>
+        </div>
+        
+     <div class="social-links">
+  <h3>Follow the Journey</h3>
+  <div class="social-icons">
+    <!-- Instagram -->
+    <a href="https://www.instagram.com/zuzukart"
+       class="social-icon"
+       aria-label="Instagram – opens in new tab"
+       target="_blank"
+       rel="noopener noreferrer">
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+      </svg>
+    </a>
+
+    <!-- Facebook -->
+    <a href="https://www.facebook.com/zuzukart"
+       class="social-icon"
+       aria-label="Facebook – opens in new tab"
+       target="_blank"
+       rel="noopener noreferrer">
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+      </svg>
+    </a>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="site-footer">
+  <div class="footer-content">
+    <div class="footer-info">
+      <h3>Roman Zuzuk</h3>
+      <p>Contemporary Artist specializing in primitive abstraction with oil and encaustic mediums.</p>
+    </div>
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-legal">
+      <p>&copy; 2025 Roman Zuzuk. All rights reserved.</p>
+      <p>All artwork images and content are protected by copyright.</p>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- ========== GALLERY MODAL ========== -->
+  <div id="galleryModal" class="modal">
+    <div class="modal-content">
+      <button id="closeModal" class="modal-close" aria-label="Close gallery">&times;</button>
+
+      <div class="modal-controls">
+        <button id="prevBtn" class="modal-nav-btn" aria-label="Previous artwork">&#10094;</button>
+        <button id="nextBtn" class="modal-nav-btn" aria-label="Next artwork">&#10095;</button>
+      </div>
+
+      <div class="modal-image">
+        <img id="modalImage" src="" alt="">
+        <!-- Magnifying glass zoom button -->
+        <button class="modal-zoom-btn" id="modalZoomBtn" aria-label="Zoom image">
+          ⤢
+        </button>
+      </div>
+
+      <div id="modalInfo" class="modal-info">
+        <!-- JS fills title, meta, description -->
+      </div>
+
+      <div id="modalCounter" class="modal-counter">
+        <!-- JS fills e.g. "1 / 5" -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== SCRIPTS ========== -->
+  <script src="js/script.js" defer></script>
+</body>
+</html>
